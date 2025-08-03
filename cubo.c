@@ -1,3 +1,6 @@
+/*
+Código do exercício "Cubo Preto" da Fase Estadual 2024A
+*/
 #include <stdio.h>
 #include <math.h>
 int main()
