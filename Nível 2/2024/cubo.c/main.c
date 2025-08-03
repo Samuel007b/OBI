@@ -1,3 +1,6 @@
+/*
+Código do exercício "Cubo Preto" do Nível 2 - Fase Estadual 2024
+*/
 #include <stdio.h>
 #include <math.h>
 int main()
