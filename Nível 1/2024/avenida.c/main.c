@@ -1,3 +1,6 @@
+/*
+Código para o exercício "Avenida" do Nível 1 - Fase Estadual 2024
+*/
 #include <stdio.h>
 int main()
 {
