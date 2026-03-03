@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 2 - Nível Júnior
+# Questão: Atletismo
+
 N = int(input())
 ordem = []
 for i in range(N):

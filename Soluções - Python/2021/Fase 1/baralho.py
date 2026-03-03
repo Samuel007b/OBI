@@ -1,3 +1,6 @@
+# OBI 2021 - Fase 1 - Nível Sênior
+# Questão: Baralho
+
 baralho = input()
 copas = []
 espadas = []

@@ -1,3 +1,6 @@
+# OBI 2020 - Fase 1 - Níveis 1 e 2 (Turno B)
+# Questão: Três por Dois
+
 N = int(input())
 precos = []
 for i in range(N):

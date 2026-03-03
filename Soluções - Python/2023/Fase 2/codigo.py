@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 2 - Níveis Júnior e 2
+# Questão: Código de Compressão
+
 N = int(input())
 caracteres = input()
 for i in range(len(caracteres)):

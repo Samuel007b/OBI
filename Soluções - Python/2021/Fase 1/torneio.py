@@ -1,3 +1,6 @@
+# OBI 2021 - Fase 1 - Níveis Júnior, 1 e Sênior
+# Questão: Torneio de Tênis
+
 vit = 0
 for i in range(6):
     jogo = input()

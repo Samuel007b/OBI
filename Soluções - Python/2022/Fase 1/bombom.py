@@ -1,3 +1,6 @@
+# OBI 2022 - Fase 1 - Nível 2
+# Questão: Bombom
+
 def valorCarta(carta, pts):
     match carta[0]:
         case 'A':

@@ -1,10 +1,11 @@
+# OBI 2022 - Fase 1 - Níveis Júnior e Sênior
+# Questão: Quadrado Mágico
+
 N = int(input())
 linha = []
 somas = []
 for i in range(N):
-    coluna = []
-    for j in range(N):
-        coluna.append(int(input()))
+    coluna = list(map(int, input().split()))
     linha.append(coluna)
     somas.append(sum(coluna))
 for i in range(N):

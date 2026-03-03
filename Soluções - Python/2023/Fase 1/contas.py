@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 1 - Níveis 2 e Sênior
+# Questão: Contas a Pagar
+
 V = int(input())
 contas = []
 divida = 0

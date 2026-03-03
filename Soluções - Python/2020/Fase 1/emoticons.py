@@ -1,3 +1,6 @@
+# OBI 2020 - Fase 1 - Nível 1 (Turno B)
+# Questão: Emoticons
+
 M = input()
 divertido = 0
 chateado = 0

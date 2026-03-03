@@ -1,12 +1,12 @@
-R = int(input())
-N = int(input())
+# OBI 2024 - Fase 2 - Nível 2 (Turno B)
+# Questão: Salada de Frutas
+
+R, N = map(int, input().split())
 tabela1 = []
 tabela2 = []
 tabela3 = []
 for i in range(N):
-    fruta = []
-    fruta.append(int(input()))
-    fruta.append(int(input()))
+    fruta = list(map(int, input().split()))
     tabela1.append(fruta)
     tabela2.append(fruta)
 for i in range(N):

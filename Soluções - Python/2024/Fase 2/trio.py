@@ -1,7 +1,8 @@
+# OBI 2024 - Fase 2 - Nível 2 (Turno B)
+# Questão: Trio de Palitinhos
+
 N = int(input())
-palitos = []
-for i in range(N):
-    palitos.append(int(input()))
+palitos = list(map(int, input().split()))
 trios = 0
 for i in range(N):
     for j in range(N):

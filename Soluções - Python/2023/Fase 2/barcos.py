@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 2 - Níveis 2 e Sênior
+# Questão: Barcos da Nlogônia
+
 def encontraCaminho(X, Y):
     caminho = [X]
     ilhaA = X
@@ -15,20 +18,13 @@ def encontraCaminho(X, Y):
             return caminho
             break
 
-N = int(input())
-B = int(input())
+N, B = map(int, input().split())
 barcos = []
 for i in range(B):
-    barco = []
-    for j in range(3):
-        barco.append(int(input()))
-    barcos.append(barco)
+    barcos.append(list(map(int, input().split())))
 C = int(input())
 viagens = []
 for i in range(C):
-    viagem = []
-    viagem.append(int(input()))
-    viagem.append(int(input()))
-    viagens.append(viagem)
+    viagens.append(list(map(int, input().split())))
 
 # a fazer

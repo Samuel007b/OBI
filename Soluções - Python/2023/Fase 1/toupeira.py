@@ -1,18 +1,15 @@
-S = int(input())
-T = int(input())
+# OBI 2023 - Fase 1 - Níveis 2 e Sênior
+# Questão: Toupeira
+
+S, T = map(int, input().split())
 tunel = []
 for i in range(T):
-    par = []
-    par.append(int(input()))
-    par.append(int(input()))
-    tunel.append(par)
+    tunel.append(list(map(int, input().split())))
 P = int(input())
 passeio = []
 for i in range(P):
-    N = int(input())
-    caminho = []
-    for j in range(N):
-        caminho.append(int(input()))
+    caminho = list(map(int, input().split()))
+    caminho.pop(0)
     passeio.append(caminho)
 sugestoes = 0
 for i in range(P):

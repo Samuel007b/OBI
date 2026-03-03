@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 2 - Nível 2 (Turno B)
+# Questão: Remove Dígitos
+
 N = int(input())
 rodadas = 0
 while True:

@@ -1,10 +1,10 @@
+# OBI 2020 - Fase 1 - Nível 2 (Turno A)
+# Questão: Promoção de Primeira
+
 N = int(input())
 rodovias = []
 for i in range(N-1):
-    rodovia = []
-    for i in range(3):
-        rodovia.append(int(input()))
-    rodovias.append(rodovia)
+    rodovias.append(list(map(int, input().split())))
 rotas = []
 for i in range(N-1):
     cidade = [rodovias[i][0], rodovias[i][1]]

@@ -1,7 +1,7 @@
-N = int(input())
-K = int(input())
-nota = []
-for i in range(N):
-    nota.append(int(input()))
+# OBI 2024 - Fase 1 - Níveis Júnior, 1, 2 e Sênior
+# Questão: Concurso
+
+N, K = map(int, input().split())
+nota = list(map(int, input().split()))
 nota.sort()
 print(nota[N-K])

@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 2 - Níveis 1 e Sênior
+# Questão: Prefixo
+
 N = int(input())
 palavra1 = input()
 M = int(input())

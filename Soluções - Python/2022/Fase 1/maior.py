@@ -1,3 +1,6 @@
+# OBI 2022 - Fase 1 - Níveis 2 e Sênior
+# Questão: Maior Valor
+
 N = int(input())
 M = int(input())
 S = int(input())

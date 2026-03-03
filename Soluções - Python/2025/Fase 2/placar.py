@@ -1,11 +1,12 @@
-P = int(input())
-golsP = []
-for i in range(P):
-    golsP.append(int(input()))
-C = int(input())
-golsC = []
-for i in range(C):
-    golsC.append(int(input()))
+# OBI 2025 - Fase 2 - Níveis Júnior, 1 e 2
+# Questão: Placar do Jogo
+
+golsP = list(map(int, input().split()))
+P = golsP[0]
+golsP.pop(0)
+golsC = list(map(int, input().split()))
+C = golsC[0]
+golsC.pop(0)
 tempo = 0
 Pgol = 0
 Cgol = 0

@@ -1,3 +1,6 @@
+# OBI 2022 - Fase 1 - Níveis Júnior, 1, 2 e Sênior
+# Questão: Hotel
+
 D = int(input())
 A = int(input())
 N = int(input())

@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 2 - Níveis 2 e Sênior
+# Questão: Jogo do Poder
+
 def calculaPoder(a, b):
     copia = []
     for i in range(N):
@@ -28,14 +31,10 @@ def calculaPoder(a, b):
             return poder
             break
 
-N = int(input())
-M = int(input())
+N, M = map(int, input().split())
 matriz = []
 for i in range(N):
-    linha = []
-    for j in range(M):
-        linha.append(int(input()))
-    matriz.append(linha)
+    matriz.append(list(map(int, input().split())))
 poderF = []
 for i in range(N):
     linha = []

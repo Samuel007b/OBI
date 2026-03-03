@@ -1,8 +1,9 @@
+# OBI 2025 - Fase 1 - Níveis 1 e Sênior
+# Questão: Fila
+
 N = int(input())
-alunos = []
+alunos = list(map(int, input().split()))
 colas = 0
-for i in range(N):
-    alunos.append(int(input()))
 for i in range(N-1, -1, -1):
     if i!=N-1:
         i=j

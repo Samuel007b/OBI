@@ -1,7 +1,8 @@
+# OBI 2020 - Fase 1 - Nível Júnior (Turno A)
+# Questão: Escher
+
 N = int(input())
-colunas = []
-for i in range(N):
-    colunas.append(int(input()))
+colunas = list(map(int, input().split()))
 soma = colunas[0]+colunas[N-1]
 erro = False
 if N%2==0:

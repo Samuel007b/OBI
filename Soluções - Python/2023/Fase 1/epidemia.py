@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 1 - Nível Júnior
+# Questão: Epidemia
+
 N = int(input())
 R = int(input())
 P = int(input())

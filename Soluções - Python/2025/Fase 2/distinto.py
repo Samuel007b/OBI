@@ -1,9 +1,10 @@
+# OBI 2025 - Fase 2 - Níveis 2 e Sênior
+# Questão: Um Desafio Muito Distinto
+
 P = int(input())
 partidas = []
 for i in range(P):
-    L = int(input())
-    A = int(input())
-    B = int(input())
+    L, A, B = map(int, input().split())
     jogadas = []
     bolinhas = 0
     rodadas = 0

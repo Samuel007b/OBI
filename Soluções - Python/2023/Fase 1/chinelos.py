@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 1 - Nível Júnior
+# Questão: Chinelos
+
 N = int(input())
 estoque = []
 for i in range(N):

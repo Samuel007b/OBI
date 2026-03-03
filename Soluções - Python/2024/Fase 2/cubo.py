@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 2 - Níveis 2 e Sênior
+# Questão: Cubo Preto
+
 N = int(input())
 zero = (N-2)**3
 um = (N-2)**2*6

@@ -1,15 +1,11 @@
-N = int(input())
-K = int(input())
-U = int(input())
+# OBI 2020 - Fase 1 - Nível Sênior (Turno A)
+# Questão: Bingo!
+
+N, K, U = map(int, input().split())
 bingo = []
 for i in range(N):
-    cartela = []
-    for j in range(K):
-        cartela.append(int(input()))
-    bingo.append(cartela)
-sequencia = []
-for i in range(U):
-    sequencia.append(int(input()))
+    bingo.append(list(map(int, input().split())))
+sequencia = list(map(int, input().split()))
 venc = []
 for i in range(U):
     for j in range(N):

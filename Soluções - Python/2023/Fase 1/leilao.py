@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 1 - Nível 2
+# Questão: Leilão
+
 N = int(input())
 lances = []
 nomes = []

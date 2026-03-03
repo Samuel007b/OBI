@@ -1,19 +1,19 @@
-N = int(input())
-M = int(input())
+# OBI 2025 - Fase 2 - Níveis 1, 2 e Sênior
+# Questão: Mania de Ímpar
+
+N, M = map(int, input().split())
 bandeja = []
 bandejaP = [[0]*M for _ in range(N)]
 bandejaI = [[0]*M for _ in range(N)]
 impar = 0
 par = 0
 for i in range(N):
-    linha = []
+    linha = list(map(int, input().split()))
     for j in range(M):
-        G = int(input())
-        if G%2==0:
+        if linha[j]%2==0:
             par+=1
         else:
             impar+=1
-        linha.append(G)
     bandeja.append(linha)
 gotasP = 0
 gotasI = 0

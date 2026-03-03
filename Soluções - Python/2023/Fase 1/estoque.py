@@ -1,17 +1,15 @@
-M = int(input())
-N = int(input())
+# OBI 2023 - Fase 1 - Níveis 1, 2 e Sênior
+# Questão: Estoque
+
+M, N = map(int, input().split())
 tipo = []
 for i in range(M):
-    tamanho = []
-    for j in range(N):
-        tamanho.append(int(input()))
-    tipo.append(tamanho)
-vendas = 0
+    tipo.append(list(map(int, input().split())))
 P = int(input())
+vendas = 0
 for i in range(P):
-    x = int(input())-1
-    y = int(input())-1
-    if tipo[x][y]>0:
-        tipo[x][y] -= 1
+    x, y = map(int, input().split())
+    if tipo[x-1][y-1]>0:
+        tipo[x-1][y-1] -= 1
         vendas += 1
 print(vendas)

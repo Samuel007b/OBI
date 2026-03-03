@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 2 - Níveis 1, 2 e Sênior
+# Questão: Intervalo Distinto
+
 N = int(input())
 sequencia = []
 for i in range(N):

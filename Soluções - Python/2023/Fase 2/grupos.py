@@ -1,24 +1,17 @@
-E = int(input())
-M = int(input())
-D = int(input())
+# OBI 2023 - Fase 2 - Níveis Júnior, 1, 2 e Sênior
+# Questão: Grupos de Trabalho
+
+E, M, D = map(int, input().split())
 duplas = []
 brigas = []
 trios = []
 for i in range(M):
-    dupla = []
-    dupla.append(int(input()))
-    dupla.append(int(input()))
-    duplas.append(dupla)
+    duplas.append(list(map(int, input().split())))
 for i in range(D):
-    briga = []
-    briga.append(int(input()))
-    briga.append(int(input()))
-    brigas.append(briga)
+    brigas.append(list(map(int, input().split())))
 restricoes = 0
 for i in range(int(E/3)):
-    A = int(input())
-    B = int(input())
-    C = int(input())
+    A, B, C = map(int, input().split())
     for i in range(M):
         if A==duplas[i][0]:
             if B!=duplas[i][1] and C!=duplas[i][1]:

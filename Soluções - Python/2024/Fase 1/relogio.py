@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 1 - Níveis 1 e 2
+# Questão: Relógio
+
 H = int(input())
 M = int(input())
 S = int(input())

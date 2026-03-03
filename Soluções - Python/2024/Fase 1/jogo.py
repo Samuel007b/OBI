@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 1 - Níveis 2 e Sênior
+# Questão: Jogo da Vida
+
 def verificaCelula(i, j):
     vizVivas = 0
     if i-1>=0 and matrizA[i-1][j]==1:
@@ -33,13 +36,13 @@ def showMatriz():
             print(matrizA[i][j], end='')
         print()
 
-N = int(input())
-Q = int(input())
+N, Q = map(int, input().split())
 matrizA = []
 for i in range(N):
+    line = input()
     linha = []
     for j in range(N):
-        linha.append(int(input()))
+        linha.append(int(line[j]))
     matrizA.append(linha)
 for a in range(Q):
     matrizB = [[0]*N for _ in range(N)]

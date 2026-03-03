@@ -1,12 +1,10 @@
-A = int(input())
-B = int(input())
-Sa = []
-Sb = []
+# OBI 2023 - Fase 1 - Níveis 1 e Sênior
+# Questão: Subsequência
+
+A, B = map(int, input().split())
+Sa = list(map(int, input().split()))
+Sb = list(map(int, input().split()))
 b = 0
-for i in range(A):
-    Sa.append(int(input()))
-for i in range(B):
-    Sb.append(int(input()))
 for a in range(A):
     if Sa[a] == Sb[b]:
         b+=1

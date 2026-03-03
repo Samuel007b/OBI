@@ -1,8 +1,9 @@
+# OBI 2022 - Fase 1 - Níveis 2 e Sênior
+# Questão: Chuva
+
 N = int(input())
 S = int(input())
-chuvas = []
-for i in range(N):
-    chuvas.append(int(input()))
+chuvas = list(map(int, input().split()))
 intervalos = 0
 for i in range(N):
     quant = chuvas[i]

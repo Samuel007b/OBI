@@ -1,3 +1,6 @@
+# OBI 2020 - Fase 1 - Níveis Júnior e 1 (Turno A)
+# Questão: Piloto Automático
+
 carros = []
 for i in range(3):
     carros.append(int(input()))

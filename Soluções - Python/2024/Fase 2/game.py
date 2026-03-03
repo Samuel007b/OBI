@@ -1,3 +1,6 @@
+# OBI 2024 - Fase 2 - Nível 2 (Turno B)
+# Questão: Game Show
+
 N = int(input())
 a = input()
 sala = 1

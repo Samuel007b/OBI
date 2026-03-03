@@ -1,9 +1,9 @@
-N = int(input())
-M = int(input())
+# OBI 2025 - Fase 1 - Níveis Júnior e 2
+# Questão: Dieta
+
+N, M = map(int, input().split())
 quantCal = 0
 for i in range(N):
-    P = int(input())
-    G = int(input())
-    C = int(input())
+    P, G, C = map(int, input().split())
     quantCal += 4*P + 9*G + 4*C
 print(M-quantCal)

@@ -1,12 +1,10 @@
-A = int(input())
-N = int(input())
-M = int(input())
+# OBI 2022 - Fase 1 - Nível 1
+# Questão: Show
+
+A, N, M = map(int, input().split())
 fila = []
 for i in range(N):
-    fileira = []
-    for j in range(M):
-        fileira.append(int(input()))
-    fila.append(fileira)
+    fila.append(list(map(int, input().split())))
 sucesso = False
 for i in range(N-1, -1, -1):
     assentos = 0

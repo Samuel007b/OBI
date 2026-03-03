@@ -1,3 +1,6 @@
+# OBI 2022 - Fase 1 - Níveis Júnior e 1
+# Questão: Cinema
+
 idade = []
 preco = 0
 for i in range(2):

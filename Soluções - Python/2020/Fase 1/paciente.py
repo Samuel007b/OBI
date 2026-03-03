@@ -1,14 +1,14 @@
-N = int(input())
-C = int(input())
+# OBI 2020 - Fase 1 - Nível Sênior (Turno A)
+# Questão: Paciente Zero
+
+N, C = map(int, input().split())
 cadeias = []
 pacZero1 = []
 for i in range(C):
-    cadeia = []
-    P = int(input())
-    pacZero1.append(P)
-    I = int(input())
-    for j in range(I):
-        cadeia.append(int(input()))
+    cadeia = list(map(int, input().split()))
+    pacZero1.append(cadeia[0])
+    cadeia.pop(0)
+    cadeia.pop(0)
     cadeias.append(cadeia)
 pacZero2 = pacZero1.copy()
 pacZero2.sort()

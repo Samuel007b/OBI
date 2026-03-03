@@ -1,3 +1,6 @@
+# OBI 2023 - Fase 2 - Nível Júnior
+# Questão: Pizza da OBI
+
 N = int(input())
 G = int(input())
 M = int(input())

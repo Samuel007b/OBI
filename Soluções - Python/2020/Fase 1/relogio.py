@@ -1,3 +1,6 @@
+# OBI 2020 - Fase 1 - Nível Júnior (Turno B)
+# Questão: Relógio de Atleta
+
 R = int(input())
 F = int(input())
 C = int(input())
