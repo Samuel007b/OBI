@@ -1,4 +1,4 @@
-# OBI 2023 - Fase 2 - Níveis 1, 2 e Sênior
+# OBI 2023 - Fase 2 - Níveis 1, 2 e Sênior (Turno A)
 # Questão: Intervalo Distinto
 
 N = int(input())

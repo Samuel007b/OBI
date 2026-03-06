@@ -1,4 +1,4 @@
-# OBI 2023 - Fase 2 - Níveis Júnior e 2
+# OBI 2023 - Fase 2 - Níveis Júnior e 2 (Turno A)
 # Questão: Código de Compressão
 
 N = int(input())

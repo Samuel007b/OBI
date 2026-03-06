@@ -1,4 +1,4 @@
-# OBI 2023 - Fase 2 - Níveis Júnior, 1, 2 e Sênior
+# OBI 2023 - Fase 2 - Níveis Júnior, 1, 2 e Sênior (Turno A)
 # Questão: Grupos de Trabalho
 
 E, M, D = map(int, input().split())

@@ -1,4 +1,4 @@
-# OBI 2023 - Fase 2 - Níveis 2 e Sênior
+# OBI 2023 - Fase 2 - Níveis 2 e Sênior (Turno A)
 # Questão: Barcos da Nlogônia
 
 def encontraCaminho(X, Y):

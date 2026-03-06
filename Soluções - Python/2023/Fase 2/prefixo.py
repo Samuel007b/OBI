@@ -1,4 +1,4 @@
-# OBI 2023 - Fase 2 - Níveis 1 e Sênior
+# OBI 2023 - Fase 2 - Níveis 1 e Sênior (Turno A)
 # Questão: Prefixo
 
 N = int(input())
