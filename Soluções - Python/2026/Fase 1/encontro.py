@@ -1,4 +1,4 @@
-# OBI 2026 - Fase 1 - Níveis 1, 2 e Sênior
+# OBI 2026 - Fase 1 - Níveis Mirim, 1, 2 e Sênior
 # Questão: Encontro de Amigas
 
 A1 = int(input())

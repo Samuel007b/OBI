@@ -1,4 +1,4 @@
-# OBI 2026 - Fase 1 - Níveis Júnior e Sênior
+# OBI 2026 - Fase 1 - Níveis Mirim, Júnior e Sênior
 # Questão: Elevador
 
 N = int(input())

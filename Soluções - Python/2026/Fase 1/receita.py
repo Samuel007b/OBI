@@ -1,4 +1,4 @@
-# OBI 2026 - Fase 1 - Níveis Júnior e 1
+# OBI 2026 - Fase 1 - Níveis Mirim, Júnior e 1
 # Questão: Receita Revolucionária
 
 P = int(input())
